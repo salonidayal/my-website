@@ -1,0 +1,179 @@
+body{
+    background-color : #BFCAF7;
+}
+
+/* NAVBAR */
+.navbar{
+    padding-bottom: 0 0 4.5 rem;
+}
+
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2.25rem;
+    white-space: nowrap;
+    color: slateblue;
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* landing page */
+.land-text{
+    color : #fff;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 7%;
+}
+
+
+
+.main-image{
+    padding: 0% 0% 7.8% 0%;
+}
+
+h1,h3{
+    padding: 3% 0% 0% 2%;
+    color: darkblue;
+    font-family: 'Rubik';
+}
+
+p {
+    font-family: sans-serif;
+    margin-right: 6%;
+    color: slateblue;
+    padding: 0% 0% 4% 2%;
+}
+
+/*Projects*/
+.ph
+{
+    text-align: center;
+    color: #fff;
+    padding: 5% 0% 2% 2%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.blink {
+    animation: blink 0.5s infinite;
+    color: #fff;
+  }
+  @keyframes blink{
+    to { opacity: .0; }
+  }
+  .flex {
+      display: flex;
+  }
+  .header-sub-title {
+    color: #4A3FB9;
+    font-family: "Rubik";
+    font-size: 1.17em;
+    padding: 0.1em;
+    text-transform: uppercase;
+    padding-left: 2%;
+  }
+
+/*ABOUT ME*/
+
+
+.custom-shape-divider-bottom-1650056934 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1650056934 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 125px;
+}
+
+.custom-shape-divider-bottom-1650056934 .shape-fill {
+    fill: #06113C;
+}
+
+.skills{
+    background-color: #06113C;
+    height: 475px;
+}
+
+.skill-img{
+    padding: 10% 0% 0% 13%;
+}
+
+h2{ 
+    padding: 10% 40% 0% 0%;
+    margin-left: 0%;
+    text-align: right;
+    color: #BFCAF7;
+}
+
+.progress{
+    margin: 0% 0% 0% 31%;
+    align-items: right;
+}
+
+
+.hp{
+    color: #BFCAF7;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.projects{
+    background-color: #BFCAF7;
+    margin-bottom: 5%;
+}
+
+.perpro{
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.pro-image{
+    margin-left: 40%;
+    margin-bottom: 7%;
+}
+
+.desc{
+    margin-right: 20%;
+    color: navy;
+}
+
+h5{ 
+    color: #4A3FB9;
+}
+
+
+#project{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pro-h{
+    color: #06113C;
+    text-align: center;
+    margin-top: -11%;
+    margin-bottom:3%;
+    text-align: center;
+    padding-left: 37%;
+    font-family: 'Rubik';
+}
