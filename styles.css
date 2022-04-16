@@ -217,3 +217,9 @@ h5{
     color: white;
 }
 
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: white;
+}
+
