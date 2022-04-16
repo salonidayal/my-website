@@ -1,10 +1,11 @@
 body{
-    background-color : #BFCAF7;
+    background-color :#06113C ;
 }
 
 /* NAVBAR */
 .navbar{
     padding-bottom: 0 0 4.5 rem;
+    background-color: #BFCAF7;
 }
 
 
@@ -21,7 +22,9 @@ body{
     padding: 0 18px;
     
 }
-
+.landing{
+    background-color: #BFCAF7;
+}
 .nav-link {
     font-size: 1.2rem;
     font-family: 'PT Sans', sans-serif;
@@ -62,6 +65,15 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+.resume-btn{
+    margin: 0px;
+    margin-left: 3%;
+    size: 4%;
+    background-color:  #BFCAF7;
+    color: #06113C;
+    font-size: 1.25rem;
+    font-family: rubik;
+}
 
 .blink {
     animation: blink 0.5s infinite;
@@ -84,6 +96,26 @@ p {
 
 /*ABOUT ME*/
 
+.about-me{
+    background-color: #06113C;
+    padding-left: 12%;
+    padding-top: 10%;
+    height: 475px;
+}
+
+.selfimg{
+
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+hr{ 
+    border: dotted #EAF6F6 6px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom: none;
+
+}
 
 .custom-shape-divider-bottom-1650056934 {
     position: absolute;
@@ -116,8 +148,8 @@ p {
 
 h2{ 
     padding: 10% 40% 0% 0%;
-    margin-left: 0%;
-    text-align: right;
+    margin-left: 31%;
+    text-align: left;
     color: #BFCAF7;
 }
 
@@ -173,7 +205,15 @@ h5{
     text-align: center;
     margin-top: -11%;
     margin-bottom:3%;
-    text-align: center;
-    padding-left: 37%;
+    padding-left: 10%;
     font-family: 'Rubik';
 }
+
+.card{
+    background-color: #001E6C;
+}
+
+.card-header{
+    color: white;
+}
+
