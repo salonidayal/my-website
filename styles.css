@@ -2,6 +2,10 @@ body{
     background-color :#06113C ;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 .navbar{
     padding-bottom: 0 0 4.5 rem;
@@ -217,3 +221,79 @@ h5{
     color: white;
 }
 
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: white;
+}
+
+
+.iconlinks{
+    display: inline-block;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#contact-form {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(48, 58, 129, 0.3);
+}
+
+#contact-links {
+    margin-bottom: 0;
+}
+
+#contact-form h2 {
+    padding: 20px;
+    font-size: 2.2rem;
+    color: #1c3548;
+    text-align: center;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'] {
+  border: 0;
+  border-bottom: 2px solid slateblue;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;  
+}
+
+.say-hi-form {
+    width: 80%;
+    margin: auto;
+}
+.say-hi{
+    color:white;
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 10px;
+}
+
+.say-hi-form button {
+    margin-top: 1.8rem;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(97, 86, 169);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 12.5rem;
+}
+
+
+.say-hi-form button:hover{
+    transform: scale(0.98);
+    background-color: slateblue;
+    transition: all ease 0.2s;
+}
