@@ -68,19 +68,22 @@ p {
     padding: 5% 0% 2% 2%;
     font-family: 'Rubik', sans-serif;
 }
-
+.btn{
+    margin-left: 2%;
+}
 .resume-btn{
+    align-items: right;
     margin: 0px;
-    margin-left: 3%;
     size: 4%;
-    background-color:  #BFCAF7;
-    color: #06113C;
-    font-size: 1.25rem;
+    background-color:   #06113C;
+    color: #BFCAF7 ;
+    font-size: 1.5rem;
     font-family: rubik;
 }
 
 .blink {
     animation: blink 0.5s infinite;
+    animation-duration: 1s;
     color: #fff;
   }
   @keyframes blink{
