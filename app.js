@@ -1,4 +1,4 @@
-const words = ["web developer", "java programmer", "data science enjoyer", "tech liker"];
+const words = ["web developer", "java programmer", "CSE Student","Product Manager"];
 let i = 0;
 let timer;
 
