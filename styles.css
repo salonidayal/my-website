@@ -388,3 +388,12 @@ h5{
     transition: all ease 0.2s;
 }
 
+
+.paddingBetweenCols td {
+    padding: 0 1rem;
+  }
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
