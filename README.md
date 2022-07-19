@@ -29,7 +29,8 @@ This is my personal portfolio site containing information about me, my skills an
   </tr>
 </table>
 
-
+## Deployed Site 
+https://salonidayal.github.io/my-website/
 
 
 
